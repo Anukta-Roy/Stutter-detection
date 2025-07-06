@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stuttering Detection</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="header">
+<img src="{{ url_for('static', filename='1.jpg') }}" alt="Fluencis Logo">
+</div>
+
+<div class="main-content">
+<div class="title-section">
+ <h1>FLUENCIS</h1>
+<div class="typewriter">Where speech meets precision</div>
+</div>
+
+<div class="flex-center">
+<div class="container">
+<h1>Upload Audio File</h1>
+<form action="/" method="post" enctype="multipart/form-data">
+<input type="file" name="file" accept=".wav,.mp3" required>
+<input type="submit" value="Upload">
+</form>
+
+ {% if prediction_message %}
+<h2>Prediction Results:</h2>
+ <p>{{ prediction_message | safe }}</p>
+{% endif %}
+ </div>
+</div>
+</div>
+
+ <footer>
+<p><strong>About Us:</strong> This project was built by our team(SADSR) to detect and classify stuttering types using ML,DL. Powered by passion, precision, and purpose.</p>
+ </footer>
+</body>
+</html>
