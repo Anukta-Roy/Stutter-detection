@@ -1,7 +1,5 @@
 <h1 align="center">FLUENCIS</h1>
 <p align="center">Where speech meets precision</p>
-<h1 align="center">FLUENCIS</h1>
-<p align="center">Where speech meets precision</p>
 # Stuttering Detection & Correction
 
 A machine learning and deep learning-based system for detecting and classifying stuttering types such as **Prolongation**, **Block**, **Word Repetition**, **Sound Repetition**, and **Interjection** from speech audio files.  
