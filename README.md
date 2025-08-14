@@ -1,6 +1,6 @@
 <h1 align="center">FLUENCIS</h1>
 <p align="center">Where speech meets precision</p>
-# Stuttering Detection & Correction
+Stuttering Detection & Correction
 
 A machine learning and deep learning-based system for detecting and classifying stuttering types such as **Prolongation**, **Block**, **Word Repetition**, **Sound Repetition**, and **Interjection** from speech audio files.  
 This project uses the **SEP-28k dataset**, multiple feature extraction methods (MFCC, ZCR, Jitter, Shimmer), and models like **Decision Tree**, **Random Forest**, **SVM**, and **CNN** to achieve high detection accuracy.
